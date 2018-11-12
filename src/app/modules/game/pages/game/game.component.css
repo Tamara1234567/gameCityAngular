@@ -1,0 +1,87 @@
+.game {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    border: 10px solid #44b12e;
+    border-radius: 30px;
+    background-color: #fffff3;
+    color: #44b12e;
+}
+.go {
+    background-color: #44b12e;
+    border-radius: 3px;
+    color: white;
+    font-style: bold;
+  }
+  
+  .go:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #44b12e;
+    box-shadow: inset 0 0 0 2px #44b12e;
+  }
+  
+  .gamefield__global {
+    width: 550px;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100px;
+    margin: 10px;
+    border: 6px solid #44b12e;
+    border-radius: 20px;
+  }
+  
+  .gamefield__gamer {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 0px;
+  }
+  
+  .stopbtn {
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    float: right;
+  }
+  
+  .stop {
+    background-color: red;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    width: 75px;
+    height: 70px;
+  }
+  
+  .stop:hover {
+    background: rgba(0, 0, 0, 0);
+    color: red;
+    box-shadow: inset 0 0 0 3px red;
+  }
+  game {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    border: 10px solid #44b12e;
+    border-radius: 30px;
+    background-color: #fffff3;
+    color: #44b12e;
+  }
+  
+   .gamefield__history {
+    overflow: auto;
+    width: 500px;
+    float: right;
+    position: absolute;
+    margin: 20px 40px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 420px;
+  }

@@ -1,0 +1,101 @@
+html, body {
+    opacity: 0.9;
+    height: 100%;
+    min-width: 400px;
+    min-height: 300px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bradley Hand, cursive; 
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+  
+  span {
+    font-size: 13px;
+    font-style: italic;
+  }
+
+
+  .main {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-size: cover;
+    ;
+  }
+
+  .game {
+   
+    height: 600px;
+    
+    top:0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .startmenu{
+    width: 500px;
+    height: 600px;
+    position: fixed;
+    margin:auto;
+    top:0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+  }
+  .startmenu__main{
+    margin:auto;
+    font-size: 30px;
+    width: 500px;
+    color: yellow;
+    font-family: Bradley Hand, cursive;
+  }
+  
+  .startmenu__main li{
+    margin: 50px;
+    list-style-type: none;
+    padding: 30px 0 10px;
+    border: 6px solid #44b12e;
+    border-radius: 10px;
+    padding: 3px;
+    list-style-type: none;
+  }
+ .startmenu__main__button{
+  display: inline-block;
+  padding: 30px;
+  border:6px solid  #fff;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 10px;
+  background: linear-gradient(#75D860, #44b12e)#44b12e;
+  transition: 0.2s;
+  cursor: pointer;
+  }
+ 
+  .back {
+  
+    width: 200px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .back img {
+    width: 150px;
+    text-align: center;
+  }
+  .back span{
+    cursor: pointer;
+    padding : 30px;
+    margin-left: 40px;
+    font-family: Bradley Hand, cursive;
+    font-size: 30px;
+    position: absolute;
+  }
+

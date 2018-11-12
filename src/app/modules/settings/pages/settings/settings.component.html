@@ -1,0 +1,19 @@
+<div class="settings__menu">
+    <h1>Settings</h1>
+    <form [formGroup]="profileForm">
+    <label>
+        Name:
+        <input type="text" [formControl]="name">
+      </label>
+      <label>
+          Color:
+          <input type="color" [formControl]="color">
+        </label>
+        <label>
+           Play With:
+            <input type="radio" [formControl]="withPc">
+            <input type="radio" [formControl]="withUser">
+          </label>
+          <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+  </form>
+</div>

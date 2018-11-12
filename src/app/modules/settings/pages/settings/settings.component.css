@@ -1,0 +1,21 @@
+.block {
+    border: 10px solid #ffffff;
+    border-radius: 30px;
+    height: 90%;
+    padding: 20px 20px;
+    background-color: #44b12e;
+}
+
+.settings__menu__button {
+    width: 50px;
+    border: 2px yellow;
+    float: right;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.settings__menu li {
+    list-style-type: none;
+    margin: 20px;
+}

@@ -1,0 +1,23 @@
+<div class="game">
+  <app-players-panel></app-players-panel>
+  <div class="gamefield">
+    <app-history-display></app-history-display>
+    <div class="gamefield">
+      <ul class='gamefield__history'>
+        <li *ngFor="let city of usedCities">{{city}}</li>
+      </ul>
+      <div class="gamefield__global">
+        <div class="gamefield__gamer">
+          <label class="gamername">{{currentPlayerName}}</label>
+          <input #newCity (keyup.enter)="addUserCity(newCity.value)" (green)="addCity(newCity.value); newCity.value='' ">
+
+          <button (click)="addUserCity(newCity.value)">Add</button>
+        </div>
+        <div class="stopbtn">
+          <button (click)="onStop()" class="btn btn-secondary btn-lg stop">STOP</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

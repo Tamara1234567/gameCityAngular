@@ -1,0 +1,12 @@
+.players{
+    width: 200px;
+    position: absolute;
+    height: 600px;
+    background-color: #44b12e;
+    border-radius: 20px;
+    color: white;
+  }
+  .players li{
+    list-style: none;
+    margin-bottom: 1em
+  }
